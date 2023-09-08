@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 2rem;
+}
+
+ /*partie trois paragraphes, alignés à gauche, droite, et justifiés. */
+
+/* text alignés à gauche */
+.p_gauche {
+    text-align: start;
+}
+
+/* text alignés à droite */
+.p_droite {
+    text-align: end;
+}
+
+/*text alignés à  justifiés */
+.p_justifiés {
+    text-align: justify;
+}
+
+/*partie Mettre en forme l'article  */
+
+article {
+    margin-top: 2rem;
+    width: 500px;
+}
+
+/* partie titre */
+
+.title {
+    padding: 5px;
+}
+
+/* partie paragraphes */
+
+.paragraphes {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+/*partie Mettre chaque nom de continent ou de langage en police Courier et en vert */
+
+.continent {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+/*partie Mettre chaque nom de compagnie en italique et en marron */
+
+.compagnie {
+    color: brown;
+}
+
+/*partie Créer une page HTML "basique" comportant un paragraphe contenant un lien externe */
+
+.lien_extern {
+    padding: 10px;
+}
+
+/*partie  Reconstituer le tableau */
+
+table {
+    margin: 2rem 0;
+    border: 1px solid black;
+    width: 90%;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid black;
+}
