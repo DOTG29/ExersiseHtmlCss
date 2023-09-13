@@ -166,6 +166,12 @@ ul {
     margin-bottom: 60px;
 }
 
+.lien_image a {
+    background-image: url(/image/puce.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .container_image_hover {
     width: 100%;
     padding: 100px;
