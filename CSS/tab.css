@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+/* 
+caption {
+    color: lightgreen;
+    text-align: start;
+}
+
+table {
+    width: 90%;
+    border: 5px solid red ;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+td {
+    background-color: lightgreen;
+}
+
+th , td {
+    border-bottom: 1px solid gray;
+    border-right: 1px solid black;
+} */
+
+
+.premiere-list {
+    list-style-image: url(/image/puce.png);
+}
+
+
+.ul-2 {
+    list-style: none;
+}
+
+.deuxieme-list {
+    background-image: url(/image/globe.jpeg);
+    background-repeat: no-repeat ;
+    height: 120px;
+    line-height: 120px;
+    text-indent: 120px;
+}
+
+table {
+    margin: 2rem 0;
+    border: 1px solid black;
+    width: 90%;
+}
+
+tr {
+    width: 90%;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid black;
+}

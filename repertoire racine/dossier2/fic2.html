@@ -6,10 +6,61 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello</h1>
-    <ul>
-        <li>Lien vers<a href="dossier4/fic4.html">fic4</a></li>
-    </ul>
-    
+    <label for="name">Champ de saisi avce `input type="text" ...`</label>
+    <input type="text" id="name" name="name" placeholder="http://" required minlength="4" maxlength="8" size="30" />
+
+    <h2>Cases à cocher</h2>
+    <input type="checkbox" id="case 1" name="case 1" />
+    <label for="case 1">case 1</label>
+    <input type="checkbox" checked id="case 2" name="case 2" />
+    <label for="case 2">case 2 pré-cochée</label>
+    <input type="checkbox" id="case 3" name="case 3" />
+    <label for="case 3">case 3</label>
+
+    <h2>Boutons radio</h2>
+    <input type="radio" id="salé" name="drone" value="salé" />
+    <label for="salé">salé</label>
+    <input type="radio" id="sucré" name="drone" value="sucré" />
+    <label for="sucré">sucré</label>
+    <input type="radio" id="sans saveur" name="drone" value="sans saveur" checked />
+    <label for="sans saveur">sans saveur</label>
+
+    <h2>Envoyer un fichier...</h2>
+    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+
+    <h2>Champ de saisi de mot de passe</h2>
+    <input type="password" value="fegzehrjshgrh" id="pass" name="password" minlength="8" required />
+
+    <h2>champ de saisi long (balise textarea)</h2>
+    <textarea id="story" name="story" rows="5" cols="33">ijrnzyrzyreivzntryzfoi_tyzoripi'tç_uezfy</textarea>
+
+    <h2>Balise select</h2>
+
+    <h2>Format par défaut</h2>
+    <select id="bieres"> 
+        <option value="Meteor"> Meteor</option>
+        <option  value="beaufort" selected>beaufort</option>
+        <option value="Kronenbourg">Kronenbourg</option>
+        <option value="Grimbergen">Grimbergen</option>
+    </select>
+
+    <h2>On raffine un peu...</h2>
+    <select name="carte" multiple="multiple">
+        <option value ="1">Visa Premier</option>
+        <option value="2" selected="selected">Visa Business</option>
+        <option value="3" selected="selected">American Express</option>
+        <option value="4">Mastercard</option>
+    </select>
+
+    <h2>Un exemple combinant plusieurs types de champs</h2>
+    <label for="email">Votre adresse de courrier électronique...</label>
+    <input type="email" id="email" pattern=".+@globex\.com" size="30" placeholder="nom@fournisseur.domaine" required />
+
+    <h2>Tapez votre commentaire:</h2>
+    <textarea id="story" name="story" rows="5" cols="33" placeholder="Votre commentaire..."></textarea>
+
+    <h2>Soumettre un formulaire...</h2>
+    <input type="submit" value="Envoyer" />
+    <input type="reset" value="Reset" />
 </body>
 </html>

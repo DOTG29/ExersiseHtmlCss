@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+#bloc {
+    background-color: yellow;
+}
+
+h1,h2 {
+    color: red;
+}
+
+b {
+    color: green;
+}
+
+div p {
+    color: blue;
+}
+
+p b {
+    color: blue;
+}
+
+.p2 {
+    color: orange;
+}
+
+input:first-child {
+    background-color: green;
+}
+
+a {
+    color: lightgray;
+}

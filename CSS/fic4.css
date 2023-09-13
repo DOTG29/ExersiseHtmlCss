@@ -1,0 +1,11 @@
+body {
+    width: 100%;
+}
+
+dt:not(.la_classe) {
+    background-color: rosybrown;
+}
+
+dd:not(#mon_id) {
+    background-color: lightgreen;
+}

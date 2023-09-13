@@ -1,0 +1,15 @@
+body {
+    width: 100%;
+}
+
+em {
+    background-color: lightgreen;
+}
+
+q {
+    background-color: lightyellow;
+}
+
+.ma_classe ~ q {
+    background-color: lightpink;
+}
