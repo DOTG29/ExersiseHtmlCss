@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.container_img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: none;
+}
+
+#img1:target {
+    display: block;
+}
+
+#img2:target {
+    display: block;
+}
+
+#img3:target {
+    display: block;
+}
+
+#img4:target {
+    display: block;
+}
+
+#img5:target {
+    display: block;
+}
+
+
+
+
+#image_1_G {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    height: 80%;
+    z-index: 1;
+}
+
+#image_2_G {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    height: 80%;
+    z-index: 1;
+}
+
+#image_3_G {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    height: 80%;
+    z-index: 1;
+}
+
+#image_4_G {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    height: 80%;
+    z-index: 1;
+}
+
+#image_5_G {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    height: 80%;
+    z-index: 1;
+}
+
+.fremer {
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+    padding: 5px;
+    top: 15%;
+    left: 75%;
+}
+
+.flech_droite {
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+    padding: 5px;
+    top: 50%;
+    right: 21%;
+}
+
+.flech_gauche {
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+    padding: 5px;
+    top: 50%;
+    left: 22%;
+}

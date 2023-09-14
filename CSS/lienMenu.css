@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+li {
+    list-style: none;
+}
+
+.sous_lien {
+    display: none;
+    background-color: aqua;
+}
+
+a {
+    color: white;
+}
+
+.menu_deroulant {
+    width: 200px;
+    text-align: center;
+    background-color: purple;
+    padding: 10px;
+}
+
+.menu_deroulant:hover  .sous_lien {
+    display: block;
+}
