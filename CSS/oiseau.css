@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 500px;
+    box-shadow: 0px 1px 12px 5px rgba(0,0,0,0.6);
+    border: 1px dotted lightgray;
+    padding: 0;
+}
+
+/* partie police */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, p, a {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header, main {
+    width: 100%;
+}
+
+/* partie header */
+
+header {
+    background-color: #cccccc;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    color: white;
+}
+
+header h1 {
+    background-color: #bbbbbb;
+    padding: 1rem;
+}
+
+/* header partie nav */
+
+nav {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #bbbbbb;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* partie main */
+
+/* main partie div */
+
+div {
+    width: 100%;
+    padding: 4rem 1rem 1rem 1rem;
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+ img {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+#haut {
+    border-bottom: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+#haut a {
+    background-color: #bbbbbb;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+

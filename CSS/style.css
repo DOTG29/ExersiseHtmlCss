@@ -65,6 +65,14 @@ article {
     padding: 10px;
 }
 
+.container_p {
+    margin-top: 5rem;
+    text-align: justify;
+    column-width: 15rem;
+    column-gap: 2rem;
+    
+}
+
 /*partie  Reconstituer le tableau */
 
 table {
